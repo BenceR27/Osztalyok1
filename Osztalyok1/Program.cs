@@ -56,6 +56,15 @@ namespace Osztalyok1
                 lapokSzama = 0;
                 lapok = new Butorlap[100];
             }
+
+            public void LapHozzaad(Butorlap lap)
+            {
+                if (lapokSzama < lapok.Length)
+                {
+                    lapok[lapokSzama] = lap;
+                    lapokSzama++;
+                }
+            }
         }
         static void Main(string[] args)
         {
