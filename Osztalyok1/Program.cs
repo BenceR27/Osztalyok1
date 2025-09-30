@@ -10,21 +10,18 @@ namespace Osztalyok1
     {
         public class Butorlap
         {
-            private int hosszusag;
-            private int szelesseg;
+            private double hossz;    
+            private double szelesseg; 
+            private string tipus;     
 
             const int tartolapnegyzetar = 5000;
             const int hatlapnegyzetar = 500;
 
-            public int Tartolap
+            public Butorlap(string tipus, double hosszCm, double szelessegCm)
             {
-                get { return hosszusag; }
-                set { hosszusag = value; }
-            }
-            public int Hatlap
-            {
-                get { return szelesseg; }
-                set { szelesseg = value; }
+                this.tipus = tipus;
+                this.hossz = hosszCm / 100.0;
+                this.szelesseg = szelessegCm / 100.0;
             }
         }
         static void Main(string[] args)
