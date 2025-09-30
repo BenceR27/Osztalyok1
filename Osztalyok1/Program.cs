@@ -40,6 +40,22 @@ namespace Osztalyok1
                     return 0; 
                 }
             }
+            public override string ToString()
+            {
+                return $"{tipus} ({hossz}m x {szelesseg}m), ár: {ArSzamol()} Ft";
+            }
+        }
+
+        public class Butor
+        {
+            private int lapokSzama;
+            private Butorlap[] lapok;
+
+            public Butor()
+            {
+                lapokSzama = 0;
+                lapok = new Butorlap[100];
+            }
         }
         static void Main(string[] args)
         {
