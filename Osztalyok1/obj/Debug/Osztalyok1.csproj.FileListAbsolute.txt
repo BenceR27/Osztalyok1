@@ -1,0 +1,7 @@
+C:\Users\rizbe\Osztalyok1\Osztalyok1\bin\Debug\Osztalyok1.exe.config
+C:\Users\rizbe\Osztalyok1\Osztalyok1\bin\Debug\Osztalyok1.exe
+C:\Users\rizbe\Osztalyok1\Osztalyok1\bin\Debug\Osztalyok1.pdb
+C:\Users\rizbe\Osztalyok1\Osztalyok1\obj\Debug\Osztalyok1.csproj.AssemblyReference.cache
+C:\Users\rizbe\Osztalyok1\Osztalyok1\obj\Debug\Osztalyok1.csproj.CoreCompileInputs.cache
+C:\Users\rizbe\Osztalyok1\Osztalyok1\obj\Debug\Osztalyok1.exe
+C:\Users\rizbe\Osztalyok1\Osztalyok1\obj\Debug\Osztalyok1.pdb

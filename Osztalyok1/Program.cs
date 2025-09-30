@@ -82,6 +82,25 @@ namespace Osztalyok1
         }
         static void Main(string[] args)
         {
+            Butor butor = new Butor();
+
+            
+            Butorlap lap1 = new Butorlap("tartolap", 150, 60); 
+            Butorlap lap2 = new Butorlap("hatlap", 120, 100);  
+            Butorlap lap3 = new Butorlap("tartolap", 50, 60);  
+
+            
+            butor.LapHozzaad(lap1);
+            butor.LapHozzaad(lap2);
+            butor.LapHozzaad(lap3);
+
+            
+            Console.WriteLine(butor);
+
+            
+            Console.WriteLine(lap1);
+            Console.WriteLine(lap2);
+            Console.WriteLine(lap3);
         }
     }
 }
