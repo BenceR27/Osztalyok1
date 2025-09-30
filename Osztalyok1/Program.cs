@@ -65,6 +65,20 @@ namespace Osztalyok1
                     lapokSzama++;
                 }
             }
+            public double ArSzamol()
+            {
+                double osszeg = 0;
+                for (int i = 0; i < lapokSzama; i++)
+                {
+                    osszeg += lapok[i].ArSzamol();
+                }
+                return osszeg;
+            }
+
+            public override string ToString()
+            {
+                return $"Butor - lapok: {lapokSzama}, ár {ArSzamol()} Ft";
+            }
         }
         static void Main(string[] args)
         {
